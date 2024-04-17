@@ -23,7 +23,7 @@ const router = createBrowserRouter(
       element: <Checkout />,
     },
   ],
-  { basename: "/store_website" }
+  { basename: "/store_website_client" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
