@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react-swc";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/store_website_client/",
+  base: "https://anzzboy.github.io/store_website_client/",
 });
