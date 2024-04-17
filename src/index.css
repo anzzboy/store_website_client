@@ -1,0 +1,65 @@
+:root {
+  --a: rgb(59, 59, 59);
+  --b: #d1d1d1;
+  --c: rgb(48, 48, 48);
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  color: var(--b);
+  background: var(--a);
+}
+.topnav {
+  margin: -10px;
+  background-color: var(--c);
+  overflow: hidden;
+}
+button {
+  color: var(--b);
+  background-color: var(--c);
+  transition-duration: 250ms;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--b);
+  color: var(--a);
+}
+button:active {
+  background-color: var(--a);
+  color: var(--a);
+}
+
+.topnav button {
+  float: left;
+  font-weight: bolder;
+  font-size: 250%;
+  line-height: 150%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.grid-container {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item img {
+  border-radius: 10%;
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.grid-item button {
+  width: 45%;
+  border-radius: 5px;
+}
+
+.grid-item button:hover {
+  width: 45%;
+  border-radius: 5px;
+}
