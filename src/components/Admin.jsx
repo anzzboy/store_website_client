@@ -8,7 +8,7 @@ export function App() {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        `http://localhost:5050/lists/` //`https://store-website-backend.onrender.com/lists/`,
+        `https://store-website-backend.onrender.com/lists/`
       );
       if (!response.ok) {
         console.error(`Error: ${response.statusText}`);

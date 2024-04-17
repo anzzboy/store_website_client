@@ -40,7 +40,7 @@ function Checkout() {
     try {
       // update db
       const response = await fetch(
-        `http://localhost:5050/lists/`, //`https://store-website-backend.onrender.com/lists/`,
+        `https://store-website-backend.onrender.com/lists/`,
         {
           method: `POST`,
           headers: {
